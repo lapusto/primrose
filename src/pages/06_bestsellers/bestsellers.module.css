@@ -1,0 +1,95 @@
+.bestsellersContainer {
+    padding: 40px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bestsellerTitle {
+    position: relative;
+    padding-bottom: 20px;
+    margin: 0;
+    color: #666;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.bestsellerTitle:after {
+    margin-bottom: 0;
+    content: '';
+    width: 40px;
+    height: 1px;
+    position: absolute;
+    background-color: #666;
+    left: 50%;
+    bottom: -5px;
+}
+
+.bestsellerInner {
+    width: 70%;
+}
+
+.allProductsButton {
+   margin: 0; 
+   text-align: center;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.point {
+    width: 30%;
+    padding: 20px 0;
+}
+
+.point img {
+    width: 100%;
+}
+
+.point h2 {
+    padding: .5em 0;
+    margin: 0;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+    color: #333;
+    position: relative;
+}
+
+.hidden {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+
+.point p {
+    color: #aaa;
+    font-size: 14px
+}
+
+@media screen and (max-width: 767px) {
+    .list {
+        flex-direction: column;
+    }
+
+    .point {
+        width: 100%;
+    }
+}

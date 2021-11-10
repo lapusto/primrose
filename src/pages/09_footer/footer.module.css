@@ -1,0 +1,37 @@
+.footerContainer {
+
+    width: 100%;
+}
+
+.socialsContainer {
+    position: relative;
+    top: -8px;
+    display: table;
+    padding: 0 1.2em;
+    margin: 0 auto;
+    clear: both;
+    background-color: #fff;
+    line-height: 1;
+}
+
+.socialsContainer a {
+    margin: 0 0.6em;
+    text-align: center;
+    color: #ccc;
+}
+
+.socialsContainer a:hover {
+    color: #666
+}
+
+.footerSeparator {
+    border-bottom: 1px solid #eee;
+}
+
+.copyright {
+    text-align: center;
+    color: #aaa;
+    padding: 30px 0;
+    font-size: 14px;
+    line-height: 1.7;
+}

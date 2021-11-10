@@ -1,0 +1,36 @@
+.sliderTitle {
+    margin: 0 0 1em;
+    font-size: 200%;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.4;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 1023px) {
+    .sliderTitle {
+        font-size: 200%;
+        line-height: 1.5;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .sliderTitle {
+        font-size: 160%;
+        line-height: 1.5;
+    }
+
+}
+
+@media screen and (max-width: 519px) {
+    .sliderTitle {
+        font-size: 120%;
+        line-height: 1.6;
+    }
+}
+
+
+

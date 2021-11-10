@@ -1,0 +1,53 @@
+.menuContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 50px;
+    margin-bottom: 20px
+}
+
+.logo img {
+    width: 150px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:15px 0;
+    transform: translateY(-50%);
+}
+
+.burger {
+    display: none;
+    color: #333333;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.15em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a {
+    padding: 0 15px;
+    color: #333333;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.15em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 1020px) {
+    .burger {
+        display: block
+    }
+
+    .menu {
+        display: none
+    }
+
+}

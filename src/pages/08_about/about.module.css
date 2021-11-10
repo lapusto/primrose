@@ -1,0 +1,56 @@
+.aboutContainer {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding-top: 50px;
+}
+
+.aboutContentContainer{
+    width: 70%;
+    display: flex;
+   }
+
+.mainText {
+display: flex;   
+flex-direction: column;
+text-align: left;
+color: #666;
+font-size: 1em;
+padding-right: 20px;
+max-width: 800px;
+}
+
+.mainText p {
+    margin-bottom: 50px;
+}
+.aboutTitle {
+    position: relative;
+    padding-bottom: 45px;
+    margin: 0;
+    color: #666;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.aboutTitle:after {
+    margin-bottom: 30px;
+    content: '';
+    width: 40px;
+    height: 1px;
+    position: absolute;
+    background-color: #666;
+    left: 0%;
+    bottom: -5px;
+}
+
+.aboutList{
+      list-style-position: inside;
+}
+
+.imageWrapper {
+    margin: 0 0 50px 30px;
+}

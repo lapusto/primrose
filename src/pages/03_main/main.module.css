@@ -1,0 +1,44 @@
+.mainContainer {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 40px;
+
+}
+
+.commonItemStyles {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+.itemSlider {
+    background-image: url('hero01.jpg');
+}
+
+.itemSliderTwo {
+    background-image: url('hero02.jpg');
+}
+
+.itemSliderThree {
+    background-image: url('hero03.jpg');
+}
+
+
+@media screen and (max-width: 767px) {
+    .commonItemStyles {
+        height: 50vh;
+    }
+
+}
+
+@media screen and (max-width: 519px) {
+    .commonItemStyles {
+        height: 40vh;
+    }
+}

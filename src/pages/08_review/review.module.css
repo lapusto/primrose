@@ -1,0 +1,37 @@
+.mainContainer {
+       width: 100%;
+    text-align: center;
+
+}
+
+.commonItemStyles {
+     height: 10vh;
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
+    color: #666;
+font-size: 1em;
+ }
+
+ .ReviewAuthor{
+    color: rgba(102, 102, 102, 0.616);
+    font-size: .8em;
+    padding: 15px 0;
+ }
+
+
+
+@media screen and (max-width: 767px) {
+    .commonItemStyles {
+        height: 50vh;
+    }
+
+}
+
+@media screen and (max-width: 519px) {
+    .commonItemStyles {
+        height: 40vh;
+    }
+}
+
+
