@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/primrose/static/css/main.2caf37ca.chunk.css",
-    "main.js": "/primrose/static/js/main.d0b3af2c.chunk.js",
-    "main.js.map": "/primrose/static/js/main.d0b3af2c.chunk.js.map",
+    "main.css": "/primrose/static/css/main.8f96462d.chunk.css",
+    "main.js": "/primrose/static/js/main.eafcf0ff.chunk.js",
+    "main.js.map": "/primrose/static/js/main.eafcf0ff.chunk.js.map",
     "runtime-main.js": "/primrose/static/js/runtime-main.6508c946.js",
     "runtime-main.js.map": "/primrose/static/js/runtime-main.6508c946.js.map",
     "static/css/2.8733d4f8.chunk.css": "/primrose/static/css/2.8733d4f8.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.a8ffa934.chunk.js.map": "/primrose/static/js/3.a8ffa934.chunk.js.map",
     "index.html": "/primrose/index.html",
     "static/css/2.8733d4f8.chunk.css.map": "/primrose/static/css/2.8733d4f8.chunk.css.map",
-    "static/css/main.2caf37ca.chunk.css.map": "/primrose/static/css/main.2caf37ca.chunk.css.map",
+    "static/css/main.8f96462d.chunk.css.map": "/primrose/static/css/main.8f96462d.chunk.css.map",
     "static/js/2.01f8befe.chunk.js.LICENSE.txt": "/primrose/static/js/2.01f8befe.chunk.js.LICENSE.txt",
     "static/media/1.d4dbdf89.jpg": "/primrose/static/media/1.d4dbdf89.jpg",
     "static/media/2.337dbd7f.jpg": "/primrose/static/media/2.337dbd7f.jpg",
@@ -39,7 +39,7 @@
     "static/js/runtime-main.6508c946.js",
     "static/css/2.8733d4f8.chunk.css",
     "static/js/2.01f8befe.chunk.js",
-    "static/css/main.2caf37ca.chunk.css",
-    "static/js/main.d0b3af2c.chunk.js"
+    "static/css/main.8f96462d.chunk.css",
+    "static/js/main.eafcf0ff.chunk.js"
   ]
 }
